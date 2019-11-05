@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 flask = "*"
 python-dotenv = "*"
+marshmallow = "*"
 
 [requires]
 python_version = "3.7"
