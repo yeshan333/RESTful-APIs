@@ -23,7 +23,8 @@ def get_incomes():
   )
   return jsonify(incomes) # incomes.data problem：already not support
 
-
+# ----------------------------???
+# TypeError: make_income() got an unexpected keyword argument 'many'
 @app.route('/incomes', methods=['POST'])
 def add_income():
   income = IncomeSchema()
